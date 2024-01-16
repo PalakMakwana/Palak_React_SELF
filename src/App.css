@@ -1,0 +1,91 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #2364AA;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #3DA5D9; 
+  border-radius: 20px;
+  padding: 20px;
+  width: 400px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  width: 60%; 
+  background-color: #73BFB8;
+}
+
+.task-name,
+.task-description {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Add {
+  background-color:#ee640e;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.checkbtn,
+.editbtn,
+.Deletebtn {
+  background-color: #EE5397;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-list {
+  margin-top: 50px;
+}
+
+.todo-list ul {
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+ 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-details {
+  margin-top: 100px;
+  align-items: flex-start;
+}
