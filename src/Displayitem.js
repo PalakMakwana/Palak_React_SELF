@@ -20,14 +20,17 @@ const Displayitem = ({ list, setList, setEditList }) => {
     <div className="todo-container">
     {list.map((todo) => (
         <div className="todo-item" key={todo.id}>
+         
           <div className="task-details">
-            <div>
+            <div className="strong-border">
               <strong>Title:</strong> {todo.title}
+              
             </div>
-            <div>
+            <div className="strong-border">
               <strong>Description:</strong> {todo.description}
             </div>
           </div>
+
           <div className="button-group">
            
             <button className="editbtn" onClick={() => handleEdit(todo)}>
